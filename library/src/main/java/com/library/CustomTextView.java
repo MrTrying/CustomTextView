@@ -9,19 +9,14 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.StateListDrawable;
+import android.support.v7.widget.AppCompatTextView;
 import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.style.ImageSpan;
 import android.util.AttributeSet;
-import android.widget.TextView;
 
 
-/**
- * CustomTextView
- *
- * @author Qiugang & jiaowenzheng
- */
-public class CustomTextView extends TextView {
+public class CustomTextView extends AppCompatTextView {
 
     private GradientDrawable normalGD;
     private GradientDrawable pressedGD;
